@@ -1,0 +1,22 @@
+{
+  "name": "web_3_asg2_chatengine",
+  "description": "chat engine for web 3 assignment 2",
+  "website": "https://github.com/jdavi6571/web_3_asg2_chatEngine",
+  "repository": "https://github.com/jdavi6571/web_3_asg2_chatEngine",
+  "logo": "https://node-js-sample.herokuapp.com/node.svg",
+  "success_url": "/",
+  "keywords": [
+    "node",
+    "express",
+    "socket.io",
+    "realtime",
+    "websocket"
+  ],
+  "scripts": {
+  },
+  "addons": [
+  ],
+  "env": {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs"
+  }
+}
