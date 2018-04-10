@@ -1,11 +1,26 @@
 {
-  "name": "socket-chat-example",
-  "version": "0.0.1",
-  "description": "my first socket.io app",
+  "name": "web3_asg2_chatengine",
+  "version": "1.0.0",
+  "private": true,
   "dependencies": {
-    "socket.io": "^1.7.4"
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-icons": "^2.2.5",
+    "react-scripts": "1.0.11",
+    "socket.io": "^2.1.0",
+    "uuid": "^3.2.1",
+    "uuid-v4": "^0.1.0"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "concurrently  'npm run server'",
+    "react": "react-scripts start",
+    "server": "nodemon src/server/index.js",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.0",
+    "nodemon": "^1.11.0"
   }
 }
