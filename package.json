@@ -12,7 +12,7 @@
     "uuid-v4": "^0.1.0"
   },
   "scripts": {
-    "start": "concurrently  'npm run server'",
+    "start": "npm run server",
     "react": "react-scripts start",
     "server": "nodemon src/server/index.js",
     "build": "react-scripts build",
